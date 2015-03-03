@@ -26,6 +26,9 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # a slightly better server over brick
 gem 'thin'
 
+# a Gant gem of the day
+gem 'stamp'
+
 group :development, :test do
 #Suppress logs in development only
   gem 'quiet_assets'

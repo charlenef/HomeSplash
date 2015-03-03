@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+html {
+  
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  background-color: #C7D0CF;
+  color: #B52333;
+;
+
+}

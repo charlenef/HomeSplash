@@ -1,13 +1,19 @@
   
-<div style ="padding-top:50px;padding-bottom:50px;background-color: #C0C0C0;">
+<div>
  
 
-  <div class="Time">    
-    <h1 style ="color: #A52A2A; font-size: 72px; text-align: center;font-family: arial, sans-serif;">12:30</h1>
+  <div id="main">    
+    <h1 id="clock">
+
+    <%= @current_time %></h1> 
+    <!--See these instance variables in controllers -> home_controller.rb -->
+ 
+   <p><%= @greet_message %></p>
+
   </div>
    
   <div class="message"> 
-    <p style ="color: #A52A2A; font-size: 72px; text-align: center; font-family: arial, sans-serif;">Good Night</p>
+ 
   </div>
 
   <div class="todo">
@@ -29,4 +35,5 @@
   <div class="search">
     search
   </div>
+
 </div>
