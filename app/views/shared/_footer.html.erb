@@ -1,9 +1,7 @@
 
 <div id="footer">
-    <% time = Time.new %>
-
-    <%= puts time.year  %>
-&copy; 2015 -
+   &copy; <% time = Time.new %>
+          <%= time.year %>
   <a href="https://github.com/charlenef/HomeSplash" target="_blank">
     <%= fa_stacked_icon "github-alt", text:"Open Sourced Here" %>
   </a>
