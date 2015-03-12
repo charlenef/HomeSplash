@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 
   def index
-  @current_time = Time.now.stamp_like("Feb 1st 09:00pm")
+  @current_time = Time.now.stamp_like("Feb 1st 9:00pm")
   @greet_message = case Time.now.hour
   when 5..11
     "Good morning!"
@@ -10,7 +10,7 @@ class HomeController < ApplicationController
    when 16..19
     ["Good evening!", "How's your evening going?"].sample
    when 20..23, 0..4
-    "Goodnite!"  
+    "Goodnite! <i class=\"fa fa-moon-o\"></i>".html_safe  
     end
 
   end

@@ -29,15 +29,19 @@ gem 'thin'
 # formatting of dates
 gem 'stamp'
 
+#rubocop checks your code for bad ruby usage
+gem 'rubocop'
+
+#icons 
+gem 'font-awesome-rails'
+
 group :development, :test do
 #Suppress logs in development only
   gem 'quiet_assets'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  
-#rubocop checks your code for bad ruby usage
-  gem 'rubocop'
+
 
 end
 
