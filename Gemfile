@@ -26,7 +26,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # a slightly better server over brick
 gem 'thin'
 
-# a Gant gem of the day
+# formatting of dates
 gem 'stamp'
 
 group :development, :test do
@@ -35,6 +35,9 @@ group :development, :test do
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  
+#rubocop checks your code for bad ruby usage
+  gem 'rubocop'
 
 end
 

@@ -14,13 +14,30 @@
  *= require_self
  */
 
-html {
-  
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  font-size: 36px;
-  background-color: #C7D0CF;
-  color: #B52333;
-;
-
+body {
+  padding: 0;
+  margin: 0;
 }
+
+
+html {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #191F03;
+  background: transparent url("highway.jpg") no-repeat right top;
+}
+
+#footer {
+  font-size: 18px;
+  font-weight: 400;
+  bottom: 0; 
+  width: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.7);
+  text-align: center;
+  height: 2em;
+  padding-top: 1em;
+  color: #ffffff;
+}
+
