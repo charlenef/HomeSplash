@@ -31,6 +31,9 @@ GEM
     ast (2.0.0)
     astrolabe (1.3.0)
       parser (>= 2.2.0.pre.3, < 3.0)
+    awesome_print (1.6.1)
+    brk-fonts-rails (1.0.5)
+      railties (>= 3.2, < 5.0)
     builder (3.2.2)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -44,6 +47,8 @@ GEM
     eventmachine (1.0.7)
     execjs (2.3.0)
     font-awesome-rails (4.3.0.0)
+      railties (>= 3.2, < 5.0)
+    font-league (1.0.0)
       railties (>= 3.2, < 5.0)
     hike (1.2.3)
     i18n (0.7.0)
@@ -104,7 +109,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
-    spring (1.3.2)
+    simple-line-icons-rails (0.0.1)
+      railties (>= 3.2, < 5.0)
+    spring (1.3.3)
     sprockets (2.12.3)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -138,8 +145,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
+  brk-fonts-rails
   coffee-rails (~> 4.0.0)
   font-awesome-rails
+  font-league
   jbuilder (~> 2.0)
   jquery-rails
   quiet_assets
@@ -147,6 +157,7 @@ DEPENDENCIES
   rubocop
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
+  simple-line-icons-rails
   spring
   sqlite3
   stamp

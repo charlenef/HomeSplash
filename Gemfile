@@ -29,11 +29,23 @@ gem 'thin'
 # formatting of dates
 gem 'stamp'
 
-#rubocop checks your code for bad ruby usage
+# rubocop checks your code for bad ruby usage
 gem 'rubocop'
 
-#icons 
+# icons 
 gem 'font-awesome-rails'
+
+# provides the Simple-Line-Icons web fonts and stylesheets as a Rails engine for use with the asset pipeline.
+gem 'simple-line-icons-rails'
+
+# FontLeague collects the fonts of The League of Moveable Type 
+gem 'font-league'
+
+# provides the Brk-Fonts web fonts and stylesheets as a Rails engine for use with the asset pipeline.
+gem "brk-fonts-rails"
+
+# makes printing from console look great
+gem 'awesome_print'
 
 group :development, :test do
 #Suppress logs in development only

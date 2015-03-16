@@ -9,10 +9,14 @@
  * compiled file so the styles you add here take precedence over styles defined in any styles
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
- *
+ *= require simple-line-icons
+ *= require brk-fonts
+ *= require font-league
  *= require font-awesome
  *= require_tree .
  *= require_self
+ *
+
  */
 
 
@@ -32,14 +36,14 @@ body {
 
 
 html {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Chunkfive';
   font-weight: 700;
   font-size: 48px;
   color: #191F03;
 }
 
 #footer {
-  font-size: 18px;
+  font-size: 12px;
   font-weight: 400;
   bottom: 0; 
   width: 100%;
@@ -51,11 +55,11 @@ html {
   color: #ffffff;
 }
 
- #footer a, a:visited {
+#footer a, a:visited {
   color: #ffffff;
 
  }
 .shadowed {
-  text-shadow: 2px 2px 0 #ffffff;
+  text-shadow: 2px 2px 0 #6BA08B;
 
 }
