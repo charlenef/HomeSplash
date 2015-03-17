@@ -13,6 +13,9 @@ class HomeController < ApplicationController
     "Goodnite! <i class=\"fa fa-moon-o\"></i>".html_safe  
     end
 
+    @quip = Quote.all.sample.quip
+
+
   end
 end
 

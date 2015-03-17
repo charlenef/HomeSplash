@@ -5,7 +5,7 @@
 
 
 #main {
-  font-family: 'Chunkfive';
+  font-family: 'Raleway', sans-serif;
   top: 30%; 
   width: 100%;
   position: absolute;
@@ -15,8 +15,26 @@
 }
 
 #clock {
-  
   font-weight: 700;
   font-size: 1em;
 }
 
+#quote {
+  
+  font-weight: 600;
+  font-size: .50em;
+  bottom: 5em; 
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 0 #000000;
+  &:before {
+   content: open-quote;
+   font-size: 1.25em;
+  }
+  &:after {
+   content: close-quote;
+   font-size: 1.25em;
+  }
+}
